@@ -1,0 +1,175 @@
+@font-face {
+    font-family:"Kostania-Bold";
+    src: url(./resources/Kostania-Bold\ copy.ttf) format("TrueType");
+}
+
+* {
+    background-color: #363636;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#FFFFFF;
+}
+
+h1 {
+    font-family: "Kostania-Bold", sans-serif;
+    font-size: 150px;
+    color: #FFE2E2;
+}
+header {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    top: 250px;
+    flex-shrink: 2;
+}
+ .byline {
+    position: relative;
+    top: 240px;
+    display: flex;
+    justify-content: space-around;
+ }
+ h3{
+    font-size: 1.5rem;
+ }
+
+
+@media only screen and (max-width: 1280px){
+    h1 {
+        font-size: 100px;
+    }
+    h3 {
+        font-size: 0.9rem;
+    }
+    
+}
+
+ul{
+    list-style: none;
+}
+nav{
+    position: fixed;
+    top: 15px;
+    font-size: 2rem;
+    left: 20px;
+    line-height: 1.4;
+    z-index: 1;
+}
+
+@media only screen and (max-width: 420px){
+    h1{
+        font-size: 64px;
+    }
+    nav{
+        font-size: 1rem;
+    }
+}
+
+
+a:link {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+a:hover {
+     color: #FFE2E2;
+}
+a:active {
+    text-decoration: underline;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+.extract {
+   position: relative;
+   text-align: center;
+   display: flex;
+   flex-shrink: 2;
+   justify-content: space-around;
+   top: 300px;
+}
+
+@media only screen and (max-width: 420px){
+    h2{
+        font-size: 1rem;
+    }
+}
+
+.essay {
+   font-size: 1.5rem; 
+   position: relative;
+   text-align: center;
+   width: auto;
+   height: 100px;
+   padding: 3px;
+   margin: 50px;
+   overflow-x: scroll;
+   display: flex;
+   line-height: 1.5;
+   flex-shrink: 2;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   top: 300px;
+}
+@media only screen and (max-width: 420px){
+   .essay {
+    left: 0px;
+   }
+}
+
+/*/resources page CSS/*/
+
+.resourceheader {
+    display: flex;
+    padding: 2rem;
+    justify-content: space-between;
+    margin-right: 10px;
+
+}
+.nav{
+    font-size: 2rem;
+    line-height: 1.4;
+
+}
+
+.links {
+   top: 5px;
+   position: relative;
+   margin: 4rem;
+   padding: 0.5rem;
+}
+.links h2{
+    font-family:  "Kostania-Bold", sans-serif;
+    font-size: 64px;
+    color: #FFE2E2;
+}
+
+@media only screen and (max-width: 420px){
+
+    .nav {
+        font-size: 1rem;
+    }
+    .links h2{
+        font-size: 45px;
+    }
+    .links {
+     top: 3px;
+    }
+}
+
+h1 a:active{
+    text-decoration: none;
+}
+
+header.resource {
+    top: 70px;
+    color:#FFE2E2;
+}
+.links li{
+    padding: 0.5rem;
+    margin: 1rem;
+    list-style: circle;
+}
+
