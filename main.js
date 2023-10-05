@@ -2,6 +2,7 @@
 const longForm = document.getElementById('essay');
 const quote = document.getElementById('extract');
 longForm.style.display = 'none'; 
+
 function Change() {
     quote.style.cursor = "pointer";
     quote.style.color = "#FFE2E2";
